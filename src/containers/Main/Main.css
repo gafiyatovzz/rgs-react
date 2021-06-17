@@ -1,0 +1,6 @@
+@import '../../components/Banner/Banner.css';
+@import '../../components/Block/Block.css';
+
+.container {
+    max-width: 1400px;
+}

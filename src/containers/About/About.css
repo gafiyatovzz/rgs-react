@@ -1,0 +1,27 @@
+@import '../../components/PageBanner/PageBanner.css';
+
+.about .title {
+    margin-bottom: 0;
+}
+
+.about_content {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.content_col {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.content_img {
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.about p.content_special {
+    margin-left: 30px;
+    color: #B6B6B6;
+}

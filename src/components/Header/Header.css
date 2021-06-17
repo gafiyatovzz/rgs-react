@@ -1,0 +1,19 @@
+@import url('./Navigate/Navigate.css');
+@import url('./Logo/Logo.css');
+@import url('./Contacts/Contacts.css');
+
+
+.header {
+    padding-top: 55px;
+    position: absolute;
+    width: 100%;
+}
+
+.header a {
+    color:  white;
+}
+.header > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

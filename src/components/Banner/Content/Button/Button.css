@@ -1,0 +1,15 @@
+.banner_button {
+    background: var(--btn-gradient);
+    box-shadow:  0px 4px 50px rgba(227, 176, 87, 0.45);;
+
+    color: #fafafa;
+
+    padding: 25px 51px;
+    font-size: 20px;
+    font-weight: 600;
+
+    border-radius: 50px;
+
+    outline: none;
+    border: none;
+}

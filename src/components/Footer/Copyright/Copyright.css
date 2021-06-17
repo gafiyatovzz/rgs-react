@@ -1,0 +1,15 @@
+.copyright {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright > p {
+    margin: 0 0 10px;
+    color: white;
+
+}
+
+.copyright > a {
+    color: white;
+text-decoration: underline;    
+}

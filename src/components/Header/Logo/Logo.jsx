@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-export default function Logo(props) {
+function Logo(props) {
     return (
         <div className='logo'>
             <NavLink to='/'>
@@ -10,3 +10,6 @@ export default function Logo(props) {
         </div>
     )
 }
+
+
+export default Logo

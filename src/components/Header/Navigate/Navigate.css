@@ -1,0 +1,15 @@
+.navigation__list {
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+}
+
+.navigation__list > li {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.navigation__list > li:last-child {
+    margin-right: 0;
+}

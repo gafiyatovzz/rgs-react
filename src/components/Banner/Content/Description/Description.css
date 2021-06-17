@@ -1,0 +1,28 @@
+.description {
+    margin-bottom: 60px;
+}
+
+.description h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -4.5%;
+    
+    color: #fafafa;
+    
+    margin: 0;
+}
+
+.description p {
+    color: #ffffff95;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 20px 0 0;
+
+}
+
+.description span {
+    color: var(--main-color);
+    font-style: italic;
+
+}

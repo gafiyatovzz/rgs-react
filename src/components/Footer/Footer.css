@@ -1,0 +1,30 @@
+@import './Copyright/Copyright.css';
+
+.footer {
+    height: 105px;
+    width: 100%;
+
+    background: #000;
+
+    border-top: 4px solid #363636;
+}
+
+.footer > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer .contacts > a {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer .contacts span {
+    color: var(--main-color);
+}

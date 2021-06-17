@@ -1,0 +1,17 @@
+@import './Content/Content.css';
+
+.banner {
+    height: 875px;
+}
+
+.banner > .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.main-bg {
+    background: url('../../assets/img/mainBanner.png');
+    background-size: cover;
+    background-position: center;
+}

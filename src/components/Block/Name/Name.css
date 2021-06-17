@@ -1,0 +1,8 @@
+.name {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.name > span {
+    color: white;
+}

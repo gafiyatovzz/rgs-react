@@ -1,0 +1,10 @@
+.page_banner {
+    height: 450px;
+    width: 100%;
+}
+
+.page_banner.about {
+    background: url('../../assets/img/mainBanner.png');
+    background-size: cover;
+    background-position-y: 70%;
+}

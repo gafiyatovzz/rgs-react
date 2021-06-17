@@ -1,37 +1,20 @@
-import React from 'react'
-import Logo from './Logo/Logo'
-import logo from '../../assets/svg/logo.svg';
-import Navigate from './Navigate/Navigate';
+import React from "react";
 
-const navs = [
-    {
-        link: '/',
-        name: 'Главная'
-    },
-    {
-        link: '/service',
-        name: 'Об услуге'
-    },
-    {
-        link: '/partners',
-        name: 'Партнеры'
-    },
-    {
-        link: '/garanty',
-        name: 'Наша гарантия'
-    },
-    {
-        link: '/contacts',
-        name: 'Контакты'
-    }
-]
+import Logo from "./Logo/Logo";
+import Navigate from "./Navigate/Navigate";
+import Contacts from "./Contacts/Contacts";
 
-export default function Header() {
-    return (
-        <header>
-            <Logo logo={logo} />
+import navs from "../../content/navigate.js";
+import client from "../../content/client";
 
-            <Navigate navs={navs} />
-        </header>
-    )
+export default function Header(props) {
+  return (
+    <header className="header">
+      <div className="container">
+        <Logo logo={props.logo} />
+        <Navigate navs={navs} />
+        <Contacts client={client} />
+      </div>
+    </header>
+  );
 }
