@@ -1,0 +1,19 @@
+.statistic {
+ margin: 0 0 50px ;
+}
+
+.statistic_text {
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 !important;
+}
+
+.statistic_num {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 !important;
+}

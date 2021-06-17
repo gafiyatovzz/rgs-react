@@ -15,3 +15,10 @@
     background-size: cover;
     background-position-y: 70%;
 }
+
+
+.page_banner.guarantee {
+    background: url('../../assets/img/mainBanner.png');
+    background-size: cover;
+    background-position-y: 70%;
+}

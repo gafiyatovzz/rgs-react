@@ -4,6 +4,8 @@
 @import './containers/Main/Main.css';
 @import './containers/About/About.css';
 @import './containers/Partners/Partners.css';
+@import './containers/Guarantee/Guarantee.css';
+
 :root {
   --main-color: #BA8E41;
   --btn-gradient: linear-gradient(180deg, #BE8E39 -30.14%, #E3B057 47.83%, #C5943F 130.82%);

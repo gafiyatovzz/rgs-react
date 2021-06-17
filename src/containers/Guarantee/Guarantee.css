@@ -1,0 +1,21 @@
+@import '../../components/Statistics/Statistics.css';
+
+.guarantee_container {
+    display: flex;
+}
+
+.guarantee_col-l {
+    flex: 0 0 75%;
+    padding: 0 5% 0 0;
+}
+
+.guarantee_col-r {
+    flex: 0 0 25%;
+    padding: 0 0 0 5%;
+}
+
+.guarantee_docs img {
+    width: 268px;
+    display: flex;
+    margin: 0 auto;
+}
