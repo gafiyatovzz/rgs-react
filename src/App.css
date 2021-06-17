@@ -3,6 +3,7 @@
 
 @import './containers/Main/Main.css';
 @import './containers/About/About.css';
+@import './containers/Partners/Partners.css';
 :root {
   --main-color: #BA8E41;
   --btn-gradient: linear-gradient(180deg, #BE8E39 -30.14%, #E3B057 47.83%, #C5943F 130.82%);
@@ -41,7 +42,13 @@
 .container {
   padding: 0 10% ;
   width: calc(100% - 20%);
+  margin: 0 auto;
 }
+
+.main  {
+  padding-bottom: 123px;
+}
+
 
 @keyframes App-logo-spin {
   from {

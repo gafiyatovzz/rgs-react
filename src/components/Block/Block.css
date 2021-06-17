@@ -10,15 +10,6 @@
     position: relative;
 }
 
-.block::before {
-    content: '';
-    background: url('../../assets/svg/triangle.svg');
-    height: 121px;
-    width: 100vw;
-    position: absolute;
-    right: -13%;
-    top: 0;
-}
 
 .block p:not(.subtitle) {
     line-height: 1.8;

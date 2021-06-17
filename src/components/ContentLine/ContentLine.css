@@ -1,0 +1,19 @@
+@import url('./BlockText/BlockText.css');
+
+.content_line {
+    padding: 70px 0;
+    background: #363636;
+    width: 100%;
+}
+
+.text_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_line {
+    color: var(--main-color);
+    font-size: 24px;
+    text-align: center;
+    margin: 50px 0 0;
+}

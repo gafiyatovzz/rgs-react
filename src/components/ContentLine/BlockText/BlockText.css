@@ -1,0 +1,9 @@
+.block_text {
+    color: white;
+    width: 33%;
+    font-size: 24px;
+}
+
+.block_text:nth-child(2){
+    width: 26%;
+}

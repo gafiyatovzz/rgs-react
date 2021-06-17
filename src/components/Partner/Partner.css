@@ -1,0 +1,36 @@
+.partner {
+  display: flex;
+  padding: 50px 0;
+  border-bottom: 1px solid #494949;
+}
+
+.partner_logo {
+    margin-bottom: 20px;
+}
+
+.partner_logo img {
+  width: 460px;
+  height: 161px;
+  object-fit: contain;
+}
+
+.partner_col-l {
+  padding: 0 5% 0 0;
+}
+
+.partner_col-r {
+  padding: 0 0 0 5%;
+}
+
+.partner_adress p {
+    margin: 0;
+}
+
+.partner_col-l p {
+    color: #fafafa;
+}
+
+.partner_col-l p span {
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.advantage {
+    flex: 0 0 45%;
+    max-width: 45%;
+
+    padding: 0 5% 0 0;
+    margin-bottom: 50px;
+
+    display: inline-flex;
+
+    font-size: 16px;
+}
+
+.advantage_img {
+    margin-right: 33px;
+}
+
+.advantage_img img {
+    width: 112px;
+}
+
+.advantage_text {
+    color: #FAFAFA;
+    line-height: 1.7;
+}
