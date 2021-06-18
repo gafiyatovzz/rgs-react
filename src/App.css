@@ -49,6 +49,10 @@
   margin: 0 auto;
 }
 
+.page {
+  position: relative;
+}
+
 .main  {
   padding-bottom: 123px;
 }
