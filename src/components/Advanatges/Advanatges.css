@@ -4,3 +4,18 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media (max-width: 768px) {
+    .advantage_container {
+        flex-direction: column;
+    }
+
+    .advantage {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .advantage:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+}

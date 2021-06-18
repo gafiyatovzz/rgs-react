@@ -34,3 +34,19 @@
     color: white;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .partner {
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+
+    .partner_logo img {
+        max-width: 460px;
+        width: 100% !important;
+    }
+
+    .partner_col-l {
+        padding: 0 0 0 5%;
+    }
+}

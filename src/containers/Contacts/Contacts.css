@@ -11,3 +11,14 @@
 .contacts_item a {
     color: white;
 }
+
+@media (max-width: 768px) {
+    .contacts_item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts_item > span {
+        margin-bottom: 20px;
+    }
+}

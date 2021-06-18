@@ -50,3 +50,22 @@
     right: 0;
     top: 0;
   }
+
+  @media (max-width: 768px) {
+    .about_content {
+        flex-direction: column;
+    }
+    .content_col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .content_col:first-child {
+        display: none;
+    }
+
+    .about p.content_special {
+        text-align: center;
+    }
+    
+  }

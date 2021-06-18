@@ -7,3 +7,15 @@
 .block_text:nth-child(2){
     width: 26%;
 }
+
+@media (max-width: 768px) {
+    .block_text {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+
+    .block_text:nth-child(2) { 
+        width: 100%;
+    }
+} 

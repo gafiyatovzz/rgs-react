@@ -13,3 +13,10 @@
     color: white;
 text-decoration: underline;    
 }
+
+@media (max-width: 768px) { 
+    .copyright > p {
+        margin: 20px 0;
+    }
+    
+}

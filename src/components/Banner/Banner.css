@@ -2,6 +2,7 @@
 
 .banner {
     height: 875px;
+    position: relative;
 }
 
 .banner > .container {
@@ -14,4 +15,15 @@
     background: url('../../assets/img/mainBanner.png');
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 768px) {
+    .banner > .container {
+        align-items: flex-start;
+        padding-top: 150px;
+    }
+
+    .banner {
+        height: 580px;
+    }
 }

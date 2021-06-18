@@ -17,4 +17,17 @@
 .banner_bottom p {
     color: var(--main-color);
     font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .banner_bottom {
+        bottom: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner_bottom a {
+        margin-bottom: 10px;
+    }
 }

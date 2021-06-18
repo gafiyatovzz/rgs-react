@@ -63,3 +63,9 @@
     width: calc(100% - 10%);
   }
 }
+
+@media (max-width: 768px) {
+  .main {
+    padding-bottom: 0;
+  }
+}

@@ -34,3 +34,13 @@
     background-size: cover;
     background-position-y: 70%;
 }
+
+@media (max-width: 768px) {
+    .page_banner.about,
+    .page_banner.faq,
+    .page_banner.contacts,
+    .page_banner.guarantee,
+    .page_banner.partners {
+        background-position-x: 76%;
+    }
+}

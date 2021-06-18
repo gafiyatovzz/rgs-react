@@ -6,7 +6,7 @@ class NavigationMobile extends Component {
     return levels.map((level, idx) => {
       return (
         <li key={idx} onClick={this.props.onToggle}>
-          <NavLink to={level.link}>{level.name}</NavLink>)
+          <NavLink to={level.link}>{level.name}</NavLink>
         </li>
       );
     });

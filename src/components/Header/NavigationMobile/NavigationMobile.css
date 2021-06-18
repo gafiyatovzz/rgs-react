@@ -4,10 +4,10 @@
     padding: 0 0 40px;
     display: none;
     height: 100vh;
-    top: 64px;
+    top: 0;
     width: 100%;
     left: 0;
-    background: #fafafa;
+    background: #000;
     z-index: 99;
   }
   
@@ -23,7 +23,7 @@
   .collapseMenu__wrapper {
     width: 100vw;
     height: 100vh;
-    background: #00000020;
+    background: #837e7e20;
     z-index: 1;
   }
   
@@ -44,6 +44,11 @@
   
   .collapseMenu__list {
     width: 100%;
+    padding: 10% 0 0 10%;
+  }
+
+  header .collapseMenu__list a {
+    color: var(--main-color);
   }
   
   .has_child > p {
