@@ -1,0 +1,13 @@
+.contacts_item > span {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.contacts_item  {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.contacts_item a {
+    color: white;
+}

@@ -1,0 +1,69 @@
+
+.Burger {
+    width: 26px;
+    height: 22px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+    display: none;
+  }
+  
+  .Burger span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #000;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+  
+  .Burger span:nth-child(1) {
+    top: 0px;
+  }
+  
+  .Burger span:nth-child(2) {
+    top: 9px;
+  }
+  
+  .Burger span:nth-child(3) {
+    top: 18px;
+  }
+  
+  .open span:nth-child(1) {
+    top: 8px;
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  
+  .open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+  }
+  
+  .open span:nth-child(3) {
+    top: 8px;
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+
+@media (max-width: 991px) {
+    .Burger {
+        display: block;
+    }
+}

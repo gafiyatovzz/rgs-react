@@ -1,0 +1,120 @@
+
+.collapseMenu {
+    position: fixed;
+    padding: 0 0 40px;
+    display: none;
+    height: 100vh;
+    top: 64px;
+    width: 100%;
+    left: 0;
+    background: #fafafa;
+    z-index: 99;
+  }
+  
+  .collapseMenu.show {
+    display: block;
+  }
+  
+  .collapseMenu > .Container {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .collapseMenu__wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: #00000020;
+    z-index: 1;
+  }
+  
+  .collapseMenu .socials {
+    left: 0;
+  }
+  
+  .collapseMenu > .container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  .collapseMenu__list {
+    width: 100%;
+  }
+  
+  .has_child > p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .collapseMenu__list > li,
+  .collapseMenu__child > li {
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  .collapseMenu__list > li:hover > ul {
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+    padding: 10px 0 0 10px;
+  }
+
+  .collapseMenu__list > li:hover .shevron {
+      -webkit-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+              transform: rotate(180deg);
+  }
+
+  .collapseMenu__child {
+    
+    height: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity .3s ease;
+    -o-transition: visibility 0s, opacity .3s ease;
+    transition: visibility 0s, opacity .3s ease;
+    opacity: 0;
+  }
+  
+  .has_child.show .collapseMenu__child {
+    display: block;
+  }
+  
+  .collapseMenu .img-bg {
+    width: 180px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: -16px;
+  }
+
+  .collapseMenu__child > a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+  }
+
+  .has_child > p {
+    margin: 0;
+  }
+
+  .shevron {
+      margin-left: 15px;
+      width: 10px;
+      -webkit-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease;
+  }
+
+  .show {
+    display: block !important;
+}

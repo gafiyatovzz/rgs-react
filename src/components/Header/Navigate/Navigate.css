@@ -1,3 +1,5 @@
+@import '../Burger/Burger.css';
+
 .navigation__list {
     display: flex;
     align-items: center;
@@ -12,4 +14,10 @@
 
 .navigation__list > li:last-child {
     margin-right: 0;
+}
+
+@media (max-width: 992px) {
+    .navigation {
+        display: none;
+    }
 }

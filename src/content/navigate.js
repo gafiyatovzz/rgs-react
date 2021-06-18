@@ -18,6 +18,10 @@ const navs = [
     {
         link: '/contacts',
         name: 'Контакты'
+    },
+    {
+        link: '/faq',
+        name: 'FAQ'
     }
 ]
 

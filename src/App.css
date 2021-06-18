@@ -5,6 +5,8 @@
 @import './containers/About/About.css';
 @import './containers/Partners/Partners.css';
 @import './containers/Guarantee/Guarantee.css';
+@import './containers/Contacts/Contacts.css';
+@import './containers/FAQ/FAQ.css';
 
 :root {
   --main-color: #BA8E41;
@@ -51,12 +53,9 @@
   padding-bottom: 123px;
 }
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 1340px) {
+  .container {
+    padding: 0 5%;
+    width: calc(100% - 10%);
   }
 }
