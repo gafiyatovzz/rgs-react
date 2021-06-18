@@ -15,10 +15,10 @@ export default class Header extends Component {
   };
 
   toggleMenuHandler() {
-    console.log(this.state);
-    this.setState({
-      menu: !this.state.menu,
-    });
+    // console.log(this.state);
+    // this.setState({
+    //   menu: !this.state.menu,
+    // });
     document.querySelector("#menuCollapse").classList.toggle("show");
     document.querySelector("header").classList.toggle("fixed");
   }
