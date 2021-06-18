@@ -9,9 +9,20 @@ import client from "../../content/client";
 import Burger from "./Burger/Burger";
 
 export default class Header extends Component {
+  
   state = {
     menu: false,
   };
+
+  toggleMenuHandler() {
+    console.log(this.state);
+    this.setState({
+      menu: !this.state.menu,
+    });
+    document.querySelector("#menuCollapse").classList.toggle("show");
+    document.querySelector("header").classList.toggle("fixed");
+  }
+
 
   render() {
     return (
@@ -26,7 +37,7 @@ export default class Header extends Component {
             ""
           )}
           <Logo logo={this.props.logo} />
-          <Navigate navs={navs} />
+          <Navigate navs={navs} onToggle={this.toggleMenuHandler} />
           <Contacts client={client} />
         </div>
       </header>

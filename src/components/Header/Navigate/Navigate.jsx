@@ -5,14 +5,7 @@ import NavigationMobile from "../NavigationMobile/NavigationMobile";
 class Navigate extends Component {
  
 
-  toggleMenuHandler() {
-    this.setState({
-      menu: !this.state.menu,
-    });
-    document.querySelector("#menuCollapse").classList.toggle("show");
-    document.querySelector("header").classList.toggle("fixed");
-  }
-
+ 
   menuCloseHandler() {
     this.setState({
       menu: false,
@@ -34,7 +27,7 @@ class Navigate extends Component {
           </ul>
         </nav>
         <NavigationMobile
-          onToggle={this.toggleMenuHandler}
+          onToggle={this.props.onToggle}
           navs={this.props.navs}
         />
       </>
