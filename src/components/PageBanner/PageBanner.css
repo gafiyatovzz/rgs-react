@@ -5,20 +5,20 @@
 }
 
 .page_banner.about {
-    background: url('../../assets/img/mainBanner.png');
+    background: url('../../assets/img/page-banner.png');
     background-size: cover;
     background-position-y: 70%;
 }
 
 .page_banner.partners {
-    background: url('../../assets/img/mainBanner.png');
+    background: url('../../assets/img/page-banner2.png');
     background-size: cover;
     background-position-y: 70%;
 }
 
 
 .page_banner.guarantee {
-    background: url('../../assets/img/mainBanner.png');
+    background: url('../../assets/img/page-banner.png');
     background-size: cover;
     background-position-y: 70%;
 }
