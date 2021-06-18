@@ -10,7 +10,7 @@ export default function Main() {
   return (
     <>
       <Banner description={banner.description} client={client} />
-      <div className="container">
+      <div className="container page">
         <Block title='Об услуге от компании РосГарантСервис' >
           <p>
             Компания <Name /> представляет уникальную услугу на
