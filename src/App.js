@@ -7,11 +7,13 @@ import Partners from './containers/Partners/Partners';
 import Guarantee from './containers/Guarantee/Guarantee';
 import Contacts from './containers/Contacts/Contacts';
 import FAQ from './containers/FAQ/FAQ';
+import Conditions from './containers/Conditions/Conditions'
 
 function App() {
   return (
     <Layout>
       <Switch>
+        <Route path='/conditions' component={Conditions} />
         <Route path='/faq' component={FAQ} />
         <Route path='/contacts' component={Contacts} />
         <Route path='/service' component={About} />

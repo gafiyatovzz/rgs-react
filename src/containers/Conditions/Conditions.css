@@ -1,0 +1,69 @@
+.conditions {
+    color: white;
+    padding-top: 60px;
+}
+
+.conditions .title {
+    text-align: center;
+}
+
+.conditions .block {
+    border-bottom: 1px solid #ffffff50;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.doc_title {
+    text-align: center;
+}
+
+.ph {
+    text-indent: 25px;
+}
+
+.doc_section a {
+    color: white;
+    text-decoration: underline;
+}
+
+.doc_section > ul, .doc_section > ul ul{
+    padding-left: 30px;
+}
+
+.doc_list_elem .doc_list {
+    padding-left: 30px;
+}
+
+.doc_list {
+    list-style: none;
+    counter-reset: li;
+    padding-left: 0;
+  }
+  .doc_list_elem {
+      margin-top: 15px;
+      line-height: 1.3;
+      letter-spacing: .3;
+  } 
+
+  ul > .doc_list_elem {
+      margin-top: 7px;
+  }
+  
+
+  .doc_list_elem ul {
+      list-style: inside;
+      padding-left: 30px;
+  }
+  .doc_list > .doc_list_elem:before {
+    counter-increment: li; 
+    content: counters(li,".") ". ";
+    font-weight: bold;
+  }
+
+  .doc_side_text {
+      width: 300px;
+      font-weight: 400;
+  }
+

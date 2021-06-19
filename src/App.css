@@ -7,6 +7,7 @@
 @import './containers/Guarantee/Guarantee.css';
 @import './containers/Contacts/Contacts.css';
 @import './containers/FAQ/FAQ.css';
+@import './containers/Conditions/Conditions.css';
 
 :root {
   --main-color: #BA8E41;
