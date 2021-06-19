@@ -22,6 +22,10 @@ const navs = [
     {
         link: '/faq',
         name: 'FAQ'
+    },
+    {
+        link: '/conditions',
+        name: 'Правила'
     }
 ]
 
