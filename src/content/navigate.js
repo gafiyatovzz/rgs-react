@@ -1,8 +1,5 @@
 const navs = [
-    {
-        link: '/',
-        name: 'Главная'
-    },
+   
     {
         link: '/service',
         name: 'Об услуге'
@@ -27,7 +24,7 @@ const navs = [
         link: '/conditions',
         name: 'Правила'
     }
-    
+
 ]
 
 export default navs
