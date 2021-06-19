@@ -27,6 +27,7 @@ const navs = [
         link: '/conditions',
         name: 'Правила'
     }
+    
 ]
 
 export default navs
