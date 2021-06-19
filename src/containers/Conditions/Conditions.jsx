@@ -298,7 +298,7 @@ export default function Conditions() {
           </div>
 
           <div className="doc_section">
-            <h4 className="doc_title text_center">V. Срок действия договора</h4>
+            <h4 className="doc_title text_center">VI. Порядок расчетов по Договору</h4>
             <ol className="doc_list">
               <li className="doc_list_elem">
                 Клиент вносит сумму равную стоимости Сертификата исходя из
