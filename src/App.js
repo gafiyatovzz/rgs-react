@@ -13,6 +13,7 @@ function App() {
   return (
     <Layout>
       <Switch>
+        
         <Route path='/conditions' component={Conditions} />
         <Route path='/faq' component={FAQ} />
         <Route path='/contacts' component={Contacts} />
