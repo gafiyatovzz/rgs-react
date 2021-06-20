@@ -2,6 +2,8 @@ import React from "react";
 import Block from "../../components/Block/Block";
 import PageBanner from "../../components/PageBanner/PageBanner";
 import client from '../../content/client.js'
+
+
 export default function Contacts() {
   return (
     <>
