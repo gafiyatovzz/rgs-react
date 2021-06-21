@@ -1,15 +1,22 @@
+@import '../../components/Form/Form.css';
+
 .contacts_item > span {
     color: var(--main-color);
     font-weight: bold;
 }
 
 .contacts_item  {
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 50px;
 }
 
 .contacts_item a {
+    color: #fafafa;
+}
+
+.contacts .content_title {
     color: white;
+    margin-top: 0;
 }
 
 @media (max-width: 768px) {

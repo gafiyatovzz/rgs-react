@@ -1,11 +1,4 @@
-import React from "react";
-
-import automir from '../assets/img/partners/automir.png';
-import autorus from '../assets/img/partners/autorus.jpeg';
-import rolf from '../assets/img/partners/rolf.png';
-import major from '../assets/img/partners/major.jpeg';
-import petr from '../assets/img/partners/petr.jpeg';
-import Inchcape from '../assets/img/partners/Inchcape.png';
+import React from 'react';
 
 const partners = [
   {
@@ -26,12 +19,7 @@ const partners = [
         </p>
       </>
     ),
-    adress: (
-      <>
-        РОЛЬФ Витебский <br /> 196105, Санкт-Петербург, Витебский проспект, дом
-        17, корпус 6 <br /> Ford
-      </>
-    ),
+    adress: <>РОЛЬФ Витебский </>,
     logo: rolf,
   },
   {
@@ -51,12 +39,7 @@ const partners = [
         </p>
       </>
     ),
-    adress: (
-      <>
-        РОЛЬФ Витебский <br /> 196105, Санкт-Петербург, Витебский проспект, дом
-        17, корпус 6 <br /> Ford
-      </>
-    ),
+    adress: <>АВТОМИР</>,
     logo: automir,
   },
   {
@@ -76,12 +59,7 @@ const partners = [
         </p>
       </>
     ),
-    adress: (
-      <>
-        РОЛЬФ Витебский <br /> 196105, Санкт-Петербург, Витебский проспект, дом
-        17, корпус 6 <br /> Ford
-      </>
-    ),
+    adress: <>Major Auto</>,
     logo: major,
   },
   {
@@ -101,12 +79,7 @@ const partners = [
         </p>
       </>
     ),
-    adress: (
-      <>
-        РОЛЬФ Витебский <br /> 196105, Санкт-Петербург, Витебский проспект, дом
-        17, корпус 6 <br /> Ford
-      </>
-    ),
+    adress: <>ГЕРМЕС</>,
   },
   {
     description: (
@@ -125,12 +98,7 @@ const partners = [
         </p>
       </>
     ),
-    adress: (
-      <>
-        РОЛЬФ Витебский <br /> 196105, Санкт-Петербург, Витебский проспект, дом
-        17, корпус 6 <br /> Ford
-      </>
-    ),
+    adress: <>Inchcape</>,
     logo: Inchcape,
   },
   {
@@ -150,12 +118,7 @@ const partners = [
         </p>
       </>
     ),
-    adress: (
-      <>
-        РОЛЬФ Витебский <br /> 196105, Санкт-Петербург, Витебский проспект, дом
-        17, корпус 6 <br /> Ford
-      </>
-    ),
+    adress: <>Русь</>,
     logo: autorus,
   },
   {
@@ -175,12 +138,7 @@ const partners = [
         </p>
       </>
     ),
-    adress: (
-      <>
-        РОЛЬФ Витебский <br /> 196105, Санкт-Петербург, Витебский проспект, дом
-        17, корпус 6 <br /> Ford
-      </>
-    ),
+    adress: <>ПЕТРОВСКИЙ</>,
     logo: petr,
   },
 ];

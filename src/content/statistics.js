@@ -1,6 +1,6 @@
 const statistics = [
     {
-        num: '15',
+        num: '7',
         text: 'лет в бизнесе'
     },
     {
