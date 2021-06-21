@@ -1,3 +1,5 @@
+import React from "react";
+
 const client = {
     phone: {
         tel: (<>8 <span>800</span> 550-22-38</>),

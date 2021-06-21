@@ -1,3 +1,5 @@
+
+import React from "react";
 const banner = {
     description: {
         title: (<>Гарантийное обслуживание автомобилей <span>с пробегом</span></>),
