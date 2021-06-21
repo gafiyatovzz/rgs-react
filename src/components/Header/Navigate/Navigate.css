@@ -16,6 +16,12 @@
     margin-right: 0;
 }
 
+@media (max-width: 1440px) {
+    .navigation__list > li {
+        margin-right: 15px;
+    }
+}
+
 @media (max-width: 992px) {
     .navigation {
         display: none;
