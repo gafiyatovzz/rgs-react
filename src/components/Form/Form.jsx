@@ -9,12 +9,12 @@ export default function Form() {
     <form className="contact-form" id="coop-form" onSubmit={sendEmail}>
       <div className="input_container">
         <div className="form_row">
-          <input className="form_input" type="text" placeholder="Ваше имя" />
-          <input className="form_input" type="email" placeholder="E-Mail" />
+          <input className="form_input" name="userName" type="text" placeholder="Ваше имя" />
+          <input className="form_input" name="email" type="email" placeholder="E-Mail" />
         </div>
         <div className="form_row">
-          <input className="form_input" type="number" placeholder="Телефон" />
-          <input className="form_input" type="text" placeholder="Комментарий" />
+          <input className="form_input" name="phone" type="number" placeholder="Телефон" />
+          <input className="form_input" name="message" type="text" placeholder="Комментарий" />
         </div>
       </div>
       <button className="form_button" type="submit">
@@ -29,10 +29,10 @@ function sendEmail(e) {
 
   emailjs
     .sendForm(
-      "service_gj9vtf5",
-      "template_t6opwsk",
+      "service_jvnqsbm",
+      "template_ywurlnf",
       e.target,
-      "user_AcYeG4byo4meSAUiTCfA"
+      "user_9VbSUqve3la6eliYKyI4R"
     )
     .then(
       (result) => {

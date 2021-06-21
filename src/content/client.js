@@ -6,8 +6,8 @@ const client = {
         link: 'tel:78005502238'
     },
     email: {
-        name: 'example@mail.ru',
-        link: 'mailto:example@mail.ru'
+        name: 'info@rosgarantservice.ru',
+        link: 'mailto:info@rosgarantservice.ru'
     }
 }
 
