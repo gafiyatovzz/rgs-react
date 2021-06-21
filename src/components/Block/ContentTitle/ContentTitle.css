@@ -2,6 +2,12 @@
     font-size: 24px;
     font-weight: bold;
     color: var(--main-color);
-    letter-spacing: 0.03em;
     margin: 50px 0 62px;
+}
+
+@media (max-width: 818px) {
+    .content_title {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
 }

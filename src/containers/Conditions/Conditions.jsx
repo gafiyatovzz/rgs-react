@@ -4,7 +4,7 @@ import client from "../../content/client";
 
 export default function Conditions() {
   return (
-    <div class="conditions">
+    <div className="conditions">
       <div className="container">
         <Block title="Оферта" classes="text_center">
           <h3 className="text_center">ПРАВИЛА ООО «РосГарантСервис»</h3>

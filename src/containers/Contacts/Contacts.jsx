@@ -1,5 +1,7 @@
 import React from "react";
 import Block from "../../components/Block/Block";
+import ContentTitle from "../../components/Block/ContentTitle/ContentTitle";
+import Form from "../../components/Form/Form";
 import PageBanner from "../../components/PageBanner/PageBanner";
 import client from '../../content/client.js'
 
@@ -21,6 +23,8 @@ export default function Contacts() {
               Будапештская д.102, офис 7Н
             </div>
           </Block>
+          <ContentTitle>Получите персональную консультацию бесплатно</ContentTitle>
+          <Form />
         </div>
       </div>
     </>

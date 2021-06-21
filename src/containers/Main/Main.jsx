@@ -2,6 +2,8 @@ import React from "react";
 import Banner from "../../components/Banner/Banner";
 import Block from "../../components/Block/Block";
 import Name from "../../components/Block/Name/Name";
+import Form from "../../components/Form/Form";
+import ContentTitle from '../../components/Block/ContentTitle/ContentTitle'
 
 import banner from "../../content/banner.js";
 import client from "../../content/client.js";
@@ -29,6 +31,8 @@ export default function Main() {
           </p>
 
         </Block>
+        <ContentTitle>Получите персональную консультацию бесплатно</ContentTitle>
+          <Form />
       </div>
     </>
   );
