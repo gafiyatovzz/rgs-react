@@ -7,7 +7,7 @@ export default function Content(props) {
   return (
     <div className="banner_content">
       <Description description={props.description} />
-      <Button />
+      <Button href="#coop-form" />
         <Bottom client={props.client}/>
     </div>
   );

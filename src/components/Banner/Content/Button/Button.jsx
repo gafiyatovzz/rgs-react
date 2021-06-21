@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function Button() {
+export default function Button(props) {
     return (
         
-        <button className="banner_button">
+        <a className="banner_button" href={props.href}>
             Получить бесплатную консультацию
-        </button>
+        </a>
         
     )
 }

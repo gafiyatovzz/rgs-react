@@ -1,5 +1,12 @@
 import React from 'react';
 
+import rolf from '../assets/img/partners/rolf.png'
+import automir from '../assets/img/partners/automir.png'
+import autorus from '../assets/img/partners/autorus.jpeg'
+import Inchape from '../assets/img/partners/Inchcape.png'
+import major from '../assets/img/partners/major.jpeg'
+import petr from '../assets/img/partners/petr.jpeg';
+
 const partners = [
   {
     description: (
@@ -99,7 +106,7 @@ const partners = [
       </>
     ),
     adress: <>Inchcape</>,
-    logo: Inchcape,
+    logo: Inchape,
   },
   {
     description: (
