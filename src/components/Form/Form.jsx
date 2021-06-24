@@ -18,6 +18,7 @@ export default function Form() {
         </div>
       </div>
       <button className="form_button" type="submit">
+        {console.log(check)}
         <img src={arrow} alt="arrow" />
       </button>
     </form>
@@ -40,7 +41,7 @@ function sendEmail(e) {
           .querySelectorAll("#coop-form input")
           .forEach((input) => (input.value = ""));
 
-        document.querySelector(".form_button img").setAttribute('src', {check});
+        document.querySelector(".form_button > img").setAttribute('src', check);
       },
       (error) => {
         console.log(error.text);

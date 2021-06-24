@@ -3,7 +3,6 @@ import Block from "../../components/Block/Block";
 import PageBanner from "../../components/PageBanner/PageBanner";
 import Statistics from "../../components/Statistics/Statistics";
 import statistics from "../../content/statistics.js";
-import cert from '../../assets/img/cert.png';
 
 export default function Guarantee() {
   return (
@@ -56,9 +55,6 @@ export default function Guarantee() {
                 {statistics.map((stat, key) => {
                   return <Statistics stat={stat} key={key} />;
                 })}
-                <div className="guarantee_docs">
-                    <img src={cert} alt="" />
-                </div>
               </div>
             </div>
           </Block>
