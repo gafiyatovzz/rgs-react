@@ -8,6 +8,7 @@
 @import './containers/Contacts/Contacts.css';
 @import './containers/FAQ/FAQ.css';
 @import './containers/Conditions/Conditions.css';
+@import './containers/TermOfUse/TermOfUse.css';
 
 :root {
   --main-color: #BA8E41;

@@ -19,8 +19,7 @@ export default function Contacts() {
               выходных)
             </div>
             <div className="contacts_item">
-              <span>Адрес: </span>192283, Россия, Санкт-Петербург, ул.
-              Будапештская д.102, офис 7Н
+              <span>Адрес: </span>г. Москва, ул. Ленинские горы д. 1
             </div>
           </Block>
           <ContentTitle>Получите персональную консультацию бесплатно</ContentTitle>
